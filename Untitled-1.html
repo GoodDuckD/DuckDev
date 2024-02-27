@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F2 Games Staff</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .botones-header {
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        #contenido-principal {
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .texto-azul {
+            color: blue;
+            font-size: 18px;
+        }
+
+        .opcional {
+            color: rgb(168, 0, 0);
+            font-size: 20px;
+        }
+
+        .texto-rojo {
+            color: red;
+            font-size: 20px;
+        }
+
+        .Roles-Resaltar {
+            color: rgba(255, 60, 0, 0.589);
+            font-size: 25px;
+        }
+
+        .txt_llamativo {
+            color: rgba(0, 0, 0, 0.589);
+            font-size: 25px;
+        }
+
+        .boton {
+            display: inline-block;
+            margin-right: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* Nuevo estilo para el botón "News" */
+        .boton-news {
+            display: inline-block;
+            margin-right: 20px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #contenido-listas {
+            display: none;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>F2 Games Staff</h1>
+        <div class="botones-header">
+            <button class="boton" onclick="mostrarContenidoPrincipal()">INICIO</button>
+            <button class="boton" onclick="mostrarLista()">List</button>
+            <button class="boton-news" onclick="mostrarNews()">Roles</button>
+            <button class="boton" onclick="mostrarwawas()">Information</button>
+        </div>
+    </header>
+
+    <main id="contenido-principal">
+        <div id="contenido-inicial">
+            <h2 class="texto-azul">Welcome to F2 Games Staff</h2> 
+            <p class="texto-azul">Explore the different results between the buttons</p>
+            <p class="texto-azul">Bugs will be fixed and information added constantly!</p>
+            <p class="texto-rojo">¡Remember, this website is not original!</p>
+
+        </div>
+        
+        <div id="contenido-listas" style="display:none;">
+            <p>All staff</p>
+            <h2>List</h2>
+            <!-- Tu tabla centrada -->
+            <table>
+                <tr>
+                    <th>x</th>
+                    <th>User</th>
+                    <th>Rol</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Gdev</td>
+                    <td>Owner</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Fasnhaim</td>
+                    <td>Server Ovseerver</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>explanatorypotato</td>
+                    <td>Head of Staff</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>not_f1opper</td>
+                    <td>Administrator</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>frzk_</td>
+                    <td>Administrator</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>patouru</td>
+                    <td>Administrator</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Axispa</td>
+                    <td>Moderator</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>flay1x1</td>
+                    <td>Moderator</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Apollo_spray</td>
+                    <td>Moderator</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Cato</td>
+                    <td>Moderator</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Hansfish</td>
+                    <td>Moderator</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>sashalore</td>
+                    <td>Moderator</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Jax</td>
+                    <td>Moderator</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Larry</td>
+                    <td>Moderator</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Shirrashton</td>
+                    <td>Moderator</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>Ost</td>
+                    <td>Moderator</td>
+                </tr>
+            </table>
+        </div>
+    
+        <div id="contenido-news" style="display:none; overflow-y: scroll; max-height: 400px;">
+            <h2>Roles</h2>
+            <p>Here it will be said what is needed to get the roles</p>
+            <p class="Roles-Resaltar">Youtuber Role</p>
+            <img src="https://cdn.discordapp.com/attachments/1163678903173402684/1210868703403708456/image.png?ex=65ec205b&is=65d9ab5b&hm=4a17a24899c8e14ca09d639fa26ebfd7cd63b10e0de29776d287e160f78246f2&" alt="Descripción de la imagen">
+            <p>Requirements</p>
+            <ul>
+                <li>3 or more videos about F2Games</li>
+                <li>150-200 subscribers</li>
+            </ul>
+            <p>If the user qualifies for the role, you can send them this text (optional)</p>
+            <p class="opcional">Congratulations, you qualify for the Youtuber role, you can publish your content in #promotion and notify members with Promotion Ping role. Remember that you can only mention the role every 24 hours.</p>
+            <p class="Roles-Resaltar">Active Role</p> 
+            <img src="https://cdn.discordapp.com/attachments/1163678903173402684/1210890861018349609/image.png?ex=65ec34fe&is=65d9bffe&hm=f227a05294aa095ff35e6c689643754d16cec744847c70bd37cd25e984273cfc&" alt="Descripción de la imagen">
+            <p>Requirements</p>
+            <ul>
+                <li>Level 15</li>
+                <li>Less than two warns</li>
+            </ul>
+            <p>If the user qualifies for the role, you can send them this text (optional)</p>
+            <p class="opcional">Congratulations, you have the requirements to obtain the Active role. You can send images on the channels, remember to read #Rules so as not to send anything out of place</p>
+            <p class="Roles-Resaltar">Artist Role</p>
+            <img src="https://cdn.discordapp.com/attachments/902009447801581620/1210899248204353616/image.png?ex=65ec3cce&is=65d9c7ce&hm=96dd116943eddf6a1e6c0d925048279c5e435cb8e9b5ed69e14a435f46451c86&" alt="Descripción de la imagen">   
+            <p>Requirements</p>
+            <ul>
+                <li>Three arts related to F2Games</li>
+            </ul>
+            <p>If the user qualifies for the role, you can send them this text (optional)</p>
+            <p class="opcional">Congratulations, your art is good enough for the role. You now have access to #fan-art</p>
+            <p class="Roles-Resaltar">Story Teller Role</p>
+            <img src="https://cdn.discordapp.com/attachments/902009447801581620/1210902901342339132/image.png?ex=65ec4035&is=65d9cb35&hm=526643ccce0531fe247fbb208bddf607679f74e8a3285b98e26d286ce74ed944&" alt="Descripción de la imagen">   
+            <p>Requirements</p>
+            <ul>
+                <li>A good story about Gorebox</li>
+            </ul>
+            <p>If the user qualifies for the role, you can send them this text (optional)</p>
+            <p class="opcional">Congratulations, your story is good. You now have access to #gb-stories</p>
+        </div>
+        
+        <div id="contenido-wawa" style="display:none;">
+            <h2>Frequent questions</h2>
+            <h2 class="txt_llamativo">Why is there a site specifically for this?</h2>
+            <p>This website was created with the purpose of helping staff members</p>
+            <h2 class="txt_llamativo">I have found incorrect information, where do I report it?</h2>
+            <p>If you have found incorrect information, I would appreciate it if you could help me by telling me at F2 Games
+                I'll fix it as soon as I can!</p>
+        </div>
+    </main>
+    
+    <footer>
+        <p>patouru</p>
+    </footer>
+
+    <script>
+        function mostrarContenidoPrincipal() {
+            document.getElementById('contenido-inicial').style.display = 'block';
+            document.getElementById('contenido-listas').style.display = 'none';
+            document.getElementById('contenido-news').style.display = 'none';
+            document.getElementById('contenido-wawa').style.display = 'none';
+        }
+    
+        function mostrarLista() {
+            document.getElementById('contenido-inicial').style.display = 'none';
+            document.getElementById('contenido-listas').style.display = 'block';
+            document.getElementById('contenido-news').style.display = 'none';
+            document.getElementById('contenido-wawa').style.display = 'none';
+        }
+    
+        function mostrarNews() {
+            document.getElementById('contenido-inicial').style.display = 'none';
+            document.getElementById('contenido-listas').style.display = 'none';
+            document.getElementById('contenido-news').style.display = 'block';
+            document.getElementById('contenido-wawa').style.display = 'none';
+        }
+        function mostrarwawas() {
+            document.getElementById('contenido-inicial').style.display = 'none';
+            document.getElementById('contenido-listas').style.display = 'none';
+            document.getElementById('contenido-news').style.display = 'none';
+            document.getElementById('contenido-wawa').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
